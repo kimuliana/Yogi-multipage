@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-decoration: none;
+}
+.h-container{
+    width:86%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    background: #FFFFFF;
+    height: 110px;
+}
+.header__block{
+    width: 50%;
+}
+.header__nav-menu{
+    width: 50%;  
+}
+.header__nav-menu a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #94959A;
+    text-decoration: none;
+}
+.headder__register {
+    width: 35%;
+}
+.headder__register a,
+.header__btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #120D26;
+    text-decoration: none;
+}
+.header__btn{
+    width: 148px;
+    height: 49px;
+    background: #120D26;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.main{
+    background: rgba(255, 112, 88, 0.05);
+}
+.container{
+    width: 87%;
+    margin: 0 auto;
+}
+.careers-at-yogi-block{
+    flex-direction: column;
+}
+.careers-at-yogi-header{
+    flex-direction: column;
+    height: 297px;
+    justify-content: center;
+}
+.careers-at-yogi-header_head{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #120D26;
+}
+.yogi-text-first{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #94959A;
+}
+.careers-at-yog-img{
+    background: #FFFFFF;
+    width: 1323px;
+    height: 666px;
+    box-shadow: 0px 10px 55px rgba(241, 102, 24, 0.15);
+    border-radius: 15px;
+}
+.careers-at-yog-img__img{
+    background-image: url(./pict/careers-at-yogi.png);
+    background-size: cover;
+    width: 1279px;
+    height: 624px;
+    margin: 21px auto;
+    align-items: flex-end;
+}
+.careers-at-yogi-block__span{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin: 0 0 40px 40px;
+}
+.careers-at-yogi-bottom{
+    flex-direction: column;
+}
+.careers-at-yogi-bottom__about{
+    height: 495px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.yogi-head{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #000000;
+}
+.yogi-text{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+.yogi-text__text{
+    margin-top: 20px;
+}
+.about-job{
+    width: 1323px;
+    height: 878px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'p p d d d d'
+    ;
+}
+.about-job-position{
+    grid-area: p;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 55px rgba(241, 102, 24, 0.15);
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 22px 21.97px 42px 23px ;
+}
+
+.yogi-head2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #120D26;
+}
+.about-job-position__block{
+    height: 295px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 367px;
+}
+.about-job-position__btn,
+.about-job-description__btn,
+.careers-at-yogi-bottom-btn{
+    width: 367px;
+    height: 70px;
+    top: calc(50% - 70px/2 - 281.5px);
+    background: #FF7058;
+    border-radius: 15px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.about-job-description{
+    grid-area: d;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 55px rgba(241, 102, 24, 0.15);
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 27px 19px 19px 27px;
+}
+.about-job-description__block{
+    height: 125px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.about-job-description__bottom-block{
+    width: 100%;
+    justify-content: flex-end;
+}
+.about-job-description__btn{
+    width: 230px;
+    height: 70px;
+    top: calc(50% - 70px/2 - 258.5px);
+    background: #120D26;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.about-job--margin{
+    margin: 75px 0;
+}
+.careers-at-yogi-bottom__bottom-block{
+    height: 449px;
+}
+.careers-at-yogi-bottom-btn{
+    width: 230px;
+    height: 70px;
+    top: calc(50% - 70px/2 + 1862.5px);
+    background: #FF7058;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+}
+.footer__top-block{
+    height: 396px;
+}
+.footer__top-block-span{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #120D26;
+}
+.footer__links{
+    width: 450px;
+}
+.footer__link,
+.footer__hidden-span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #FF7058;
+    text-decoration: none;
+}
+.footer__left-links{
+    flex-direction: column;
+    height: 230px;
+    align-items: flex-start;
+}
+.footer__link--margin{
+    margin-top: 20px;
+}
+.footer__right-links{
+    flex-direction: column;
+    height: 230px;
+    align-items: flex-start;
+}
+.footer__hidden-span{
+    color:#FFFFFF ;
+}
+.footer__select{
+    width: 190px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(241, 102, 24, 0.15);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 180px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #29253C;
+    padding-left: 14px;
+}
+.footer__down-block{
+    border-top: 2px solid #120D26;
+    height: 149px;
+}
+.footer__down-block-span,
+.footer__icons{
+    margin-bottom: 30px;
+}
+.footer__down-block-span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #120D26
+}
+.footer__icons{
+    width: 170px;
+}
+
+
+
+
+
+
