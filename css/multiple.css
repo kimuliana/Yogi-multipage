@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background: rgba(255, 112, 88, 0.05);
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background: #ffffff;
+}
+.header-right {
+  margin-left: 82px;
+  margin-top: 19px;
+}
+.header-left {
+  width: 45%;
+  margin-right: 80px;
+}
+.header-left a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #94959a;
+}
+.header-left a:nth-child(4) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #120d26;
+}
+.header-left a:last-child {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  border: 1px solid #120d26;
+  background: #120d26;
+  border-radius: 10px;
+  width: 148px;
+  height: 49px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 7%;
+}
+
+.yogi-blog {
+  width: 55%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.yogi-blog h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #120d26;
+  text-align: center;
+}
+.yogi-blog p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94959a;
+}
+
+.cards {
+  height: 2300px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 588px 880px 880px;
+  grid-template-areas:
+    "one one one"
+    "two three four"
+    "five six seven";
+  gap: 40px;
+  width: 93%;
+  margin: 0 auto;
+}
+.cards div {
+  /* border: 1px solid black; */
+  border-radius: 15px;
+}
+.one {
+  grid-area: one;
+  background-color: #ffffff;
+  padding: 20px 25px;
+  width: 98%;
+}
+.one-img {
+  width: 700px;
+  height: 550px;
+}
+.one_content {
+  height: 90%;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.one_content span {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 39px;
+  color: rgba(18, 13, 38, 0.5);
+  margin-right: 370px;
+}
+.one_content h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 62px;
+  font-family: "Poppins";
+  color: #120d26;
+}
+.one_content p {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 39px;
+  color: rgba(18, 13, 38, 0.5);
+}
+.one_btn {
+  align-self: start;
+  width: 40%;
+  height: 15%;
+  background: #120d26;
+  border-radius: 15px;
+}
+.one_btn span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 22px;
+}
+.two {
+  grid-area: two;
+}
+.two span,
+.three span,
+.four span,
+.five span,
+.six span,
+.seven span,
+.two p,
+.three p,
+.four p,
+.five p,
+.six p,
+.seven p {
+  align-self: flex-start;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(18, 13, 38, 0.5);
+  text-align: start;
+}
+
+.two h1,
+.three h1,
+.four h1,
+.five h1,
+.six h1,
+.seven h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #120d26;
+}
+
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+
+.button-loadmore {
+  width: 230px;
+  height: 70px;
+  background: #ff7058;
+  border-radius: 15px;
+  border: none;
+  margin: 16% 40% 10% 43%;
+}
+.button-loadmore span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+footer {
+  background: #ffffff;
+  height: 545px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ff7058;
+  margin-top: 20px;
+}
+footer h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #120d26;
+  /* margin-top: 10px; */
+}
+.footer-left {
+  width: 40%;
+  margin-left: 80px;
+  padding-bottom: 170px;
+}
+
+.footer-rigth button {
+  margin-right: 80px;
+}
+.footer-rigth__btn {
+  width: 190px;
+  height: 53px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(241, 102, 24, 0.15);
+  border-radius: 8px;
+  justify-content: space-around;
+  margin-bottom: 300px;
+  border: none;
+}
+.footer-rigth__btn span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #29253c;
+}
+
+@media (min-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
