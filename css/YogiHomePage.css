@@ -1,0 +1,445 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+img{
+    cursor: pointer;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  height: 12vh;
+}
+.header h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.01em;
+  color: #ff7058;
+  cursor: pointer;
+}
+.header-menu a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #94959a;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.header-menu a:hover {
+  color: #120d26;
+}
+.header-menu button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25p x;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  width: 148px;
+  height: 49px;
+  background: #120d26;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.header-menu button:hover {
+  color: #120d26;
+  background: #fff;
+  box-shadow: 4px 3px 10px 2px #120d26;
+}
+.keeping-together {
+  margin-top: 20px;
+  height: 75vh;
+}
+.keeping-together__left {
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.keeping-together h2 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 90px;
+  letter-spacing: 0.01em;
+  color: #120d26;
+}
+.keeping-together p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94959a;
+  width: 80%;
+}
+.keeping-together-nav {
+  width: 60%;
+}
+.keeping-together-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff7058;
+}
+.keeping-together-nav button {
+  background: #ff7058;
+  border-radius: 15px;
+  padding: 15px 40px;
+  border: none;
+  color: #fff;
+  width: 45%;
+  cursor: pointer;
+}
+.four-companies {
+  margin-top: 30px;
+  height: 35vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.four-companies h6 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 34px;
+  color: #94959a;
+  margin-bottom: 50px;
+}
+.four-companies > div img {
+  margin-right: 115px;
+  cursor: pointer;
+}
+.our-pricing {
+  height: 180vh;
+}
+.pricing-block {
+  background: rgba(255, 112, 88, 0.05);
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.pricing-block h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #120d26;
+}
+.pricing-block p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94959a;
+}
+
+.pricing-cards {
+  margin-top: 50px;
+  align-items: flex-start;
+}
+.pricing-cards > div {
+  width: 30%;
+  background: #ffffff;
+  box-shadow: 0px 10px 55px rgba(241, 102, 24, 0.15);
+  border-radius: 15px;
+}
+.pricing-cards h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #120d26;
+  justify-content: center;
+  margin: 40px 130px 22px 100px;
+}
+.price p {
+  width: 0 !important;
+  margin: 0 !important;
+}
+.pricing-cards h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ff7058;
+  margin-bottom: 25px;
+}
+.pricing-cards p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #94959a;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.pricing-cards span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #29253c;
+}
+.pricing-cards button {
+  width: 292px;
+  height: 80px;
+  background: #ff7058;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  border: none;
+  margin-top: 27px;
+}
+.check-in {
+  justify-content: start;
+  margin: 0 auto;
+  width: 80%;
+}
+.card-design {
+  text-align: center;
+  height: 600px;
+}
+.card-popular {
+  text-align: center;
+  height: 800px;
+}
+.card-premium {
+  text-align: center;
+  height: 990px;
+}
+.our__happy__users {
+  height: 90vh;
+}
+.happy-users {
+  flex-direction: column;
+  justify-content: center;
+}
+.happy-users h1 {
+  background: rgba(255, 112, 88, 0.05);
+  width: 100%;
+  text-align: center;
+  height: 15vh;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 72px;
+  margin-bottom: 50px;
+}
+.happy__cards > div {
+  width: 30%;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(241, 102, 24, 0.15);
+  border-radius: 15px;
+}
+.happy__cards h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #120d26;
+  width: 90%;
+}
+.happy__cards p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #94959a;
+  width: 85%;
+}
+.happy__cards span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #29253c;
+}
+.card-very,
+.card-complete,
+.card-awesome {
+  height: 420px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.global_leader {
+  height: 130vh;
+  background: rgba(255, 112, 88, 0.05);
+}
+.global_leader__left {
+  width: 40%;
+  padding-top: 190px;
+}
+.global_leader__left h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #120d26;
+  margin-bottom: 20px;
+}
+.global_leader__left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #94959a;
+  margin-bottom: 65px;
+}
+.global_leader__left a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-decoration: none;
+  background: #ff7058;
+  border-radius: 10px;
+  padding: 15px 40px;
+  width: 210px;
+}
+.global_leader__right {
+  width: 60%;
+  position: relative;
+}
+.global_leader__right img:first-child {
+  position: absolute;
+  left: 80px;
+  top: -190px;
+}
+.global_leader__right img:nth-child(2) {
+  position: absolute;
+  right: -60px;
+  bottom: -170px;
+}
+.global_leader__right img:nth-child(3) {
+  position: absolute;
+  left: 140px;
+  top: 220px;
+  z-index: 1;
+}
+.global_leader__right img:nth-child(4) {
+  position: absolute;
+  right: -60px;
+  top: 270px;
+}
+.global_leader__right img:last-child {
+  position: absolute;
+  left: 93px;
+  top: 390px;
+}
+
+.digital_branding {
+  height: 76vh;
+  background: rgba(255, 112, 88, 0.05);
+}
+.digital_branding > div {
+  background: #ff7058;
+  border-radius: 25px;
+  height: 60vh;
+  padding: 80px;
+}
+.digital_branding h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.digital_branding p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.digital_branding button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px 45px;
+  margin: 0 auto;
+  border: none;
+}
+.digital_branding button:hover {
+  color: #fff;
+  background-color: rgb(37, 202, 81);
+}
+
+.footer {
+  height: 60vh;
+}
+.footer_top {
+  align-items: flex-start;
+  padding-top: 69px;
+}
+.footer_top h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #120d26;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+.footer_top a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #ff7058;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+.footer_top select,
+.footer_top option {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #29253c;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(241, 102, 24, 0.15);
+  border-radius: 8px;
+  padding: 15px 55px 15px 10px;
+  outline: none;
+  border: none;
+  margin: 0;
+}
+.footer_top__item {
+  width: 40%;
+}
+.footer_top__item {
+  align-items: flex-start;
+}
+.footer__company > div,
+.footer__contact > div {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer_bottom div span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #120d26;
+  margin-top: 20px;
+}
+.links img{
+    margin: 40px 20px;
+}
