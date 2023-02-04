@@ -132,17 +132,17 @@ body {
 }
 .one_btn {
   align-self: start;
-  width: 40%;
-  height: 15%;
-  background: #120d26;
-  border-radius: 15px;
+    width: 40%;
+    height: 15%;
+    background: #120d26;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    padding: 0 50px;
 }
-.one_btn span {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  color: #ffffff;
-}
+
 .two,
 .three,
 .four,
